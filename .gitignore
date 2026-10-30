@@ -1,0 +1,15 @@
+**/bin/
+**/obj/
+dist/
+*.user
+*.log
+test-results/
+.vs/
+.env
+.env.*
+!.env.example
+**/settings.json
+**/stories.json
+*.pfx
+*.p12
+

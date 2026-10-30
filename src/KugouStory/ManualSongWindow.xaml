@@ -1,0 +1,13 @@
+<Window x:Class="KugouStory.ManualSongWindow"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ Title="手动输入歌曲" Width="380" Height="310" ResizeMode="NoResize" WindowStartupLocation="CenterOwner"
+ Background="#121B2B" Foreground="#EEF3FC" FontFamily="Microsoft YaHei UI">
+ <StackPanel Margin="25">
+  <TextBlock Text="手动输入歌曲" FontSize="20" Margin="0,0,0,14"/>
+  <TextBlock Text="歌名" FontSize="12" Margin="0,0,0,6"/><TextBox x:Name="TitleInput"/>
+  <TextBlock Text="歌手" FontSize="12" Margin="0,12,0,6"/><TextBox x:Name="ArtistInput"/>
+  <TextBlock x:Name="Message" Foreground="{StaticResource Accent}" FontSize="10" Margin="0,10,0,8"/>
+  <Button Content="显示这首歌的故事" Click="Confirm" Background="#6DE5CD" Foreground="#112627" IsDefault="True"/>
+ </StackPanel>
+</Window>
